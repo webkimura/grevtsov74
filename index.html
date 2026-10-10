@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" id="meta-theme" content="#ffffff">
+  <title>Автоматизация бизнеса, AI и Битрикс24 — Миасс и Челябинская область</title>
+  <meta name="description" content="Настраиваю Битрикс24, автоматизирую процессы и внедряю AI. Миасс, Златоуст, Чебаркуль, Кыштым, Карабаш — выезд или удалённо. Работаю лично, от разбора задачи до запуска.">
+
+  <!-- Open Graph  -->
+  <meta property="og:title" content="Автоматизация бизнеса, AI и Битрикс24 — Миасс и Челябинская область">
+  <meta property="og:description" content="Настраиваю Битрикс24, автоматизирую процессы и внедряю AI. Миасс, Златоуст, Чебаркуль, Кыштым, Карабаш — выезд или удалённо.">
+  <meta property="og:image" content="https://grevtsov74.ru/images/og-cover.png">
+  <meta property="og:url" content="https://grevtsov74.ru/">
+  <meta property="og:type" content="website">
+
+  <!-- Тема до первой отрисовки -->
+  <script>
+    (function () { try { if (localStorage.getItem('theme') === 'dark') document.documentElement.setAttribute('data-theme', 'dark'); } catch (e) { } })();
+  </script>
+
+  <!-- Яндекс Метрика: вставить ID счётчика после регистрации
+<script type="text/javascript">
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+m[i].l=1*new Date();
+for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}
+k=e.createElement(t);a=e.getElementsByTagName(t)[0];k.async=1;k.src=r;a.parentNode.insertBefore(k,a)})
+(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
+ym(XXXXXXXX,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/XXXXXXXX" style="position:absolute;left:-9999px;" alt=""></div></noscript>
+-->
+
+  <!-- Schema.org: услуги и цены -->
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ProfessionalService",
+  "name":"Евгений Гревцов — Битрикс24 и автоматизация бизнеса",
+  "telephone":"+7 950 725-59-80",
+  "email":"grevtsov85@mail.ru",
+    "description":"Автоматизация бизнес-процессов, внедрение Битрикс24, интеграции и AI-автоматизация.",
+  "address":{"@type":"PostalAddress","addressLocality":"Миасс","addressRegion":"Челябинская область","addressCountry":"RU"},
+  "areaServed":{"@type":"GeoCircle","geoMidpoint":{"@type":"GeoCoordinates","latitude":55.045,"longitude":60.108},"geoRadius":"100000"},
+  "makesOffer":[
+    {"@type":"Offer","name":"Битрикс24","priceCurrency":"RUB","price":"5000","description":"стартовая стоимость"},
+    {"@type":"Offer","name":"Автоматизация бизнес-процессов","priceCurrency":"RUB","price":"15000","description":"стартовая стоимость"},
+    {"@type":"Offer","name":"Интеграции","priceCurrency":"RUB","price":"15000","description":"стартовая стоимость"},
+    {"@type":"Offer","name":"AI-автоматизация","priceCurrency":"RUB","price":"30000","description":"стартовая стоимость"}
+  ]
+}
+</script>
+
+  <!-- Schema.org: FAQ (SEO + цитируемость AI-ассистентами) -->
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"Вы один — потянете мой проект?","acceptedAnswer":{"@type":"Answer","text":"Я беру ограниченное число проектов одновременно, поэтому ваш не стоит в очереди за десятью другими. Если очередь занята, я честно называю дату, с которой смогу взяться."}},
+    {"@type":"Question","name":"Что будет, если вы заболеете или уйдёте в отпуск?","acceptedAnswer":{"@type":"Answer","text":"О плановом отпуске предупреждаю заранее и сдвигаю плановые задачи. На форс-мажор есть партнёры, которые могут подстраховать. Все настройки задокументированы, поэтому другой специалист при необходимости подхватит их без потерь."}},
+    {"@type":"Question","name":"Кому принадлежит код и доступы?","acceptedAnswer":{"@type":"Answer","text":"Вам. Исходники, доступы и описание настроек передаю по акту с первого дня. Никаких «наша платформа, вы арендуете» и привязки к подрядчику."}},
+    {"@type":"Question","name":"Сколько это стоит без всяких «от»?","acceptedAnswer":{"@type":"Answer","text":"После короткого созвона я называю одну сумму и фиксирую её в договоре до начала работ. Дальше она не меняется. Стартовые цены на сайте — ориентиры по направлениям, а не цена любой задачи."}},
+    {"@type":"Question","name":"У меня нет технического задания. Это проблема?","acceptedAnswer":{"@type":"Answer","text":"Нет, ТЗ пишу я. Вы рассказываете, как процесс устроен сейчас и что в нём мешает, я приношу документ на понятном языке, вы его правите. Работа идёт по подписанному ТЗ."}},
+    {"@type":"Question","name":"Вы работаете официально?","acceptedAnswer":{"@type":"Answer","text":"Да, статус самозанятого: договор с фиксированной стоимостью и сроком плюс чеки из «Моего налога» — для бухгалтерии достаточно документов для учёта."}},
+    {"@type":"Question","name":"Где вы работаете?","acceptedAnswer":{"@type":"Answer","text":"Миасс, Златоуст, Чебаркуль, Кыштым, Карабаш, Верхний Уфалей, Сатка, Трёхгорный и другие города Челябинской области в радиусе ~100 км от Миасса. Выезжаю к вам в офис или работаю удалённо."}}
+  ]
+}
+</script>
+
+  <!-- Бренд-шрифт: Golos Text, Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="container header-in">
+      <a class="logo" href="#top">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <circle cx="16" cy="16" r="5" stroke="currentColor" stroke-width="1.8" />
+          <circle cx="16" cy="4.5" r="2.5" fill="currentColor" />
+          <circle cx="27" cy="22" r="2.5" fill="currentColor" />
+          <circle cx="5" cy="22" r="2.5" fill="currentColor" />
+          <path d="M16 7v4M18.5 19.5l6 1.5M13.5 19.5l-6 1.5" stroke="currentColor" stroke-width="1.8" />
+        </svg>
+        Евгений Гревцов
+      </a>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#top">Главная</a>
+        <a href="#services">Услуги</a>
+        <a href="#cases">Кейсы</a>
+        <a href="#prices">Цены</a>
+        <a href="#about">Обо мне</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Переключить тему" aria-pressed="false">
+          <svg class="moon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" />
+          </svg>
+          <svg class="sun" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.7" />
+            <path d="M12 2.5V5M12 19v2.5M2.5 12H5M19 12h2.5M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+          </svg>
+        </button>
+        <a class="btn btn-primary btn-small header-cta" href="#contacts">Обсудить задачу</a>
+        <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- 1. Главный экран -->
+    <section class="hero" aria-labelledby="h1">
+      <div class="container hero-in">
+        <div>
+          <h1 id="h1">Автоматизация бизнеса, AI и&nbsp;Битрикс24</h1>
+          <p class="sub">Убираю ручную работу, автоматизирую бизнес-процессы, связываю сервисы и внедряю ИИ в работу компании.</p>
+          <p class="hero-thesis">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5" />
+              <path d="M6 10.2l2.6 2.6L14 7.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+            Работаю лично: от разбора задачи до запуска решения.
+          </p>
+          <p class="hero-geo">
+            <svg width="18" height="18" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M10 18s6-5.1 6-9.2A6 6 0 0 0 4 8.8C4 12.9 10 18 10 18z" stroke="currentColor" stroke-width="1.5" />
+              <circle cx="10" cy="8.8" r="2.2" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+            Миасс и до 100 км от города — выезд или удалённо.
+          </p>
+          <ul class="tagline" aria-label="Направления">
+            <li>Битрикс24</li>
+            <li>AI-автоматизация</li>
+            <li>интеграции</li>
+            <li>n8n</li>
+            <li>1С</li>
+            <li>мессенджеры</li>
+            <li>API</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#contacts">Обсудить задачу</a>
+            <a class="btn btn-ghost" href="#cases">Посмотреть кейсы</a>
+          </div>
+        </div>
+        <div class="scheme-wrap" aria-hidden="true">
+          <svg class="scheme" viewBox="0 0 480 360" role="img" aria-label="Схема: системы компании, связанные вокруг единого центра">
+            <g class="ln">
+              <path pathLength="1" d="M240 180V56" />
+              <path pathLength="1" d="M240 180 85 116" />
+              <path pathLength="1" d="M240 180 405 116" />
+              <path pathLength="1" d="M240 180 85 240" />
+              <path pathLength="1" d="M240 180 395 240" />
+              <path pathLength="1" d="M240 180v120" />
+            </g>
+            <g class="node">
+              <rect x="185" y="20" width="110" height="36" rx="12" /><text x="240" y="43">Битрикс24</text>
+            </g>
+            <g class="node">
+              <rect x="30" y="80" width="110" height="36" rx="12" /><text x="85" y="103">1С</text>
+            </g>
+            <g class="node">
+              <rect x="350" y="80" width="110" height="36" rx="12" /><text x="405" y="103">AI</text>
+            </g>
+            <g class="node">
+              <rect x="30" y="240" width="110" height="36" rx="12" /><text x="85" y="263">Telegram</text>
+            </g>
+            <g class="node">
+              <rect x="340" y="240" width="110" height="36" rx="12" /><text x="395" y="263">WhatsApp</text>
+            </g>
+            <g class="node">
+              <rect x="185" y="300" width="110" height="36" rx="12" /><text x="240" y="323">Таблицы</text>
+            </g>
+            <g class="core">
+              <circle class="pulse" cx="240" cy="180" r="30" fill="none" stroke-width="1.5" />
+              <rect x="160" y="158" width="160" height="44" rx="14" /><text x="240" y="185">Ваш бизнес</text>
+            </g>
+            <circle class="pulse-dot" r="3.5" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Где бизнес теряет время -->
+    <section class="section" id="problems" aria-labelledby="h-problems">
+      <div class="container">
+        <h2 id="h-problems">Где бизнес теряет время</h2>
+        <p class="section-sub">Знакомо хотя бы три пункта — автоматизация окупится за первые месяцы.</p>
+        <div class="grid grid-2 grid-3">
+          <article class="card card-pad">
+            <h3>Ручной перенос данных</h3>
+            <p>Заявки и контакты приходится переносить между системами вручную.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>Потерянные обращения</h3>
+            <p>Клиенты ждут ответа, менеджеры забывают перезвонить.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>Разрозненные системы</h3>
+            <p>Данные находятся в CRM, таблицах, почте и мессенджерах.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>Отчёты вручную</h3>
+            <p>Сотрудники тратят время на сбор информации вместо работы с клиентами.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>Битрикс24 не помогает</h3>
+            <p>CRM внедрена, но процессы остались ручными и неудобными.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>AI непонятен</h3>
+            <p>Есть желание внедрить AI, но непонятно, где он действительно принесёт пользу.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Услуги -->
+    <section class="section section-soft" id="services" aria-labelledby="h-services">
+      <div class="container">
+        <h2 id="h-services">Услуги</h2>
+        <p class="section-sub">Четыре направления работы. Без лишних услуг и пакетов.</p>
+        <div class="grid grid-2">
+          <article class="card card-pad service">
+            <span class="badge badge-ai">AI</span>
+            <h3>AI-автоматизация</h3>
+            <p class="svc"><span class="svc-l">Решаю:</span> менеджеры тратят время на типовые обращения, документы и информацию.</p>
+            <p class="svc"><span class="svc-l">Делаю:</span> AI-боты, AI-помощники, обработка обращений и документов, базы знаний, AI + CRM.</p>
+            <p class="res">Результат: меньше ручной работы и быстрее обработка обращений.</p>
+            <div class="price-row"><strong>от 30 000 ₽</strong></div>
+            <a class="btn btn-ghost btn-small" href="#contacts">Обсудить задачу</a>
+          </article>
+          <article class="card card-pad service">
+            <span class="badge badge-main">Процессы</span>
+            <h3>Автоматизация бизнес-процессов</h3>
+            <p class="svc"><span class="svc-l">Решаю:</span> заявки, задачи, согласования и контроль выполняются вручную.</p>
+            <p class="svc"><span class="svc-l">Делаю:</span> заявки, автоматическое создание задач, уведомления, согласования, контроль, отчёты.</p>
+            <p class="res">Результат: процессы выполняются автоматически, ручного контроля меньше.</p>
+            <div class="price-row"><strong>от 15 000 ₽</strong></div>
+            <a class="btn btn-ghost btn-small" href="#contacts">Обсудить задачу</a>
+          </article>
+          <article class="card card-pad service">
+            <span class="badge badge-main">CRM</span>
+            <h3>Битрикс24</h3>
+            <p class="svc"><span class="svc-l">Решаю:</span> CRM есть, но сотрудники продолжают работать вручную или система настроена неудобно.</p>
+            <p class="svc"><span class="svc-l">Делаю:</span> настройка, CRM, роботы, бизнес-процессы, коробочная версия, доработки.</p>
+            <p class="res">Результат: Битрикс24 адаптирован под реальные процессы компании.</p>
+            <div class="price-row"><strong>от 5 000 ₽</strong></div>
+            <a class="btn btn-ghost btn-small" href="#contacts">Обсудить задачу</a>
+          </article>
+          <article class="card card-pad service">
+            <span class="badge badge-main">Связи</span>
+            <h3>Интеграции</h3>
+            <p class="svc"><span class="svc-l">Решаю:</span> системы не обмениваются данными, сотрудники переносят информацию вручную.</p>
+            <p class="svc"><span class="svc-l">Делаю:</span> Битрикс24, 1С, сайты, MAX, Telegram, WhatsApp, почта, таблицы, API, webhook.</p>
+            <p class="res">Результат: системы обмениваются данными автоматически, ручного ввода меньше.</p>
+            <div class="price-row"><strong>от 15 000 ₽</strong></div>
+            <a class="btn btn-ghost btn-small" href="#contacts">Обсудить задачу</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Как AI встраивается в процессы -->
+    <section class="section" id="ai" aria-labelledby="h-ai">
+      <div class="container">
+        <h2 id="h-ai">Как AI встраивается в ваши процессы</h2>
+        <p class="section-sub">Без сложной архитектуры: четыре шага от обращения до действия.</p>
+        <ol class="flow">
+          <li class="card card-pad"><span class="step-num">01</span>
+            <h3>Канал</h3>
+            <p>Обращение приходит из почты, мессенджера или с сайта.</p>
+          </li>
+          <li class="card card-pad"><span class="step-num">02</span>
+            <h3>AI</h3>
+            <p>Понимает обращение и извлекает из него данные.</p>
+          </li>
+          <li class="card card-pad"><span class="step-num">03</span>
+            <h3>Битрикс24</h3>
+            <p>Создаёт сделку, задачу и карточку клиента.</p>
+          </li>
+          <li class="card card-pad"><span class="step-num">04</span>
+            <h3>Действие</h3>
+            <p>Сотрудник получает готовую задачу, а не поток сообщений.</p>
+          </li>
+        </ol>
+        <p class="flow-note">Вы получаете не технологию, а работающий процесс.</p>
+      </div>
+    </section>
+
+    <!-- 5. Кейсы -->
+    <section class="section section-soft" id="cases" aria-labelledby="h-cases">
+      <div class="container">
+        <h2 id="h-cases">Кейсы</h2>
+        <p class="section-sub">Реальные проекты: AI-автоматизация, интеграции и бизнес-процессы.</p>
+        <div class="cases">
+          <article class="card card-pad case">
+            <h3>AI-бот для интернет-магазина</h3>
+            <div class="case-grid">
+              <div><span class="case-tag">Задача</span>
+                <p>На сайте по продаже электрических соединителей не было онлайн-чата — только форма сбора контактов, которой почти никто не пользовался.</p>
+              </div>
+              <div><span class="case-tag">Решение</span>
+                <p>AI-бот на сайте общается с посетителями, собирает контактные данные и передаёт квалифицированный лид в Битрикс24 оператору.</p>
+              </div>
+              <div><span class="case-tag case-tag-res">Результат</span>
+                <p>5–10 обращений в неделю через бота. Раньше онлайн-обращений не было вообще.</p>
+              </div>
+            </div>
+            <ul class="chips">
+              <li>AI</li>
+              <li>n8n</li>
+              <li>Битрикс24</li>
+              <li>Сайт</li>
+            </ul>
+          </article>
+          <article class="card card-pad case">
+            <h3>Мониторинг серверов для сисадмина</h3>
+            <div class="case-grid">
+              <div><span class="case-tag">Задача</span>
+                <p>Системный администратор проверял состояние серверов вручную — нужно было заходить на каждый и смотреть метрики.</p>
+              </div>
+              <div><span class="case-tag">Решение</span>
+                <p>n8n + REST API мониторит RAM, GPU, диск и Docker-контейнеры (2 сервера, ~10 контейнеров). При отклонениях создаёт оповещения в Битрикс24.</p>
+              </div>
+              <div><span class="case-tag case-tag-res">Результат</span>
+                <p>3–5 инцидентов в неделю, оповещение в течение 5 минут. Админ узнаёт о проблеме сразу.</p>
+              </div>
+            </div>
+            <ul class="chips">
+              <li>n8n</li>
+              <li>REST API</li>
+              <li>Linux</li>
+              <li>Docker</li>
+              <li>Битрикс24</li>
+            </ul>
+          </article>
+          <article class="card card-pad case">
+            <h3>RAG-бот для ИТ-отдела</h3>
+            <div class="case-grid">
+              <div><span class="case-tag">Задача</span>
+                <p>Пользователи звонили или писали в ИТ-отдел, оставляли заявки по телефону — неудобно и медленно.</p>
+              </div>
+              <div><span class="case-tag">Решение</span>
+                <p>Бот в Битрикс24 отвечает на типовые вопросы по базе знаний (RAG на локальной LLM, ~10 страниц А4). Если ответа нет — создаёт заявку.</p>
+              </div>
+              <div><span class="case-tag case-tag-res">Результат</span>
+                <p>Часть обращений закрывается ботом, пользователи общаются текстом, а не по телефону.</p>
+              </div>
+            </div>
+            <ul class="chips">
+              <li>n8n</li>
+              <li>LLM</li>
+              <li>RAG</li>
+              <li>Битрикс24</li>
+            </ul>
+          </article>
+          <article class="card card-pad case">
+            <h3>Онбординг в компании на 900 человек</h3>
+            <div class="case-grid">
+              <div><span class="case-tag">Задача</span>
+                <p>Онбординг новых сотрудников (10–15 в месяц) проходил устно, растягивался на месяц. Коммуникация между отделами — по телефону.</p>
+              </div>
+              <div><span class="case-tag">Решение</span>
+                <p>Через ЦРМ и дизайнер бизнес-процессов собран процесс: автоматические задачи на кадры, ИТ, оснащение рабочего места и контроль.</p>
+              </div>
+              <div><span class="case-tag case-tag-res">Результат</span>
+                <p>Ручные звонки между отделами ушли, процесс идёт автоматически.</p>
+              </div>
+            </div>
+            <ul class="chips">
+              <li>Битрикс24</li>
+              <li>ЦРМ</li>
+              <li>Бизнес-процессы</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Блок для клиентов без готового ТЗ -->
+    <section class="section" id="unknown" aria-labelledby="h-unknown">
+      <div class="container">
+        <div class="card card-pad unknown">
+          <h2 id="h-unknown">Не знаете, что именно автоматизировать?</h2>
+          <p>Расскажите, как сейчас устроен процесс. Я помогу найти ручные операции, узкие места и определить, что действительно имеет смысл автоматизировать.</p>
+          <a class="btn btn-primary" href="#contacts">Обсудить задачу</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Как проходит работа -->
+    <section class="section section-soft" id="process" aria-labelledby="h-process">
+      <div class="container">
+        <h2 id="h-process">Как проходит работа</h2>
+        <ol class="steps">
+          <li class="card card-pad"><span class="step-num">01</span>
+            <h3>Разбор задачи</h3>
+            <p>Понимаю задачу и как сейчас работает процесс.</p>
+          </li>
+          <li class="card card-pad"><span class="step-num">02</span>
+            <h3>Анализ</h3>
+            <p>Ищу ручные операции и точки, которые можно упростить.</p>
+          </li>
+          <li class="card card-pad"><span class="step-num">03</span>
+            <h3>Предложение решения</h3>
+            <p>Предлагаю оптимальный вариант и согласовываю объём работ.</p>
+          </li>
+          <li class="card card-pad"><span class="step-num">04</span>
+            <h3>Разработка и настройка</h3>
+            <p>Настраиваю и интегрирую необходимые системы.</p>
+          </li>
+          <li class="card card-pad"><span class="step-num">05</span>
+            <h3>Тестирование</h3>
+            <p>Проверяю сценарии до запуска.</p>
+          </li>
+          <li class="card card-pad"><span class="step-num">06</span>
+            <h3>Запуск и передача</h3>
+            <p>Запускаю решение, передаю результат и остаюсь на связи.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 8. Почему со мной -->
+    <section class="section" id="why" aria-labelledby="h-why">
+      <div class="container">
+        <h2 id="h-why">Почему со мной</h2>
+        <div class="grid grid-2 why">
+          <article class="card card-pad">
+            <h3>Личная работа</h3>
+            <p>Вы общаетесь непосредственно со специалистом, без менеджеров и посредников.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>Прозрачные цены</h3>
+            <p>Стартовые цены указаны на сайте, стоимость согласовывается до начала работ.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>Не продаю лишние технологии</h3>
+            <p>Сначала разбираюсь в задаче, затем подбираю решение из того, что уже есть у компании.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>И бизнес, и технологии</h3>
+            <p>Понимаю бизнес-процессы и умею переводить их в автоматизированные сценарии.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Гарантии и прозрачность -->
+    <section class="section section-soft" id="trust" aria-labelledby="h-trust">
+      <div class="container">
+        <h2 id="h-trust">Гарантии и прозрачность</h2>
+        <p class="section-sub">Правила, по которым я работаю, — до денег и после них.</p>
+        <div class="grid grid-2 trust-grid">
+          <article class="card card-pad">
+            <h3>Код и доступы — ваши</h3>
+            <p>Исходники, доступы и описание настроек передаю по акту. Никаких «наша платформа, вы арендуете» и привязки к подрядчику.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>Гарантия 3 месяца</h3>
+            <p>Всё, что в этот срок работает не так, как согласовано в техзадании, исправляю бесплатно и без обсуждений. Дальше — поддержка: правки и доработки по согласованной ставке. Не обещаю «12 месяцев на всё»: после третьего месяца на систему влияют обновления внешних сервисов и изменения в ваших процессах — гарантировать их я не могу и честно говорю об этом заранее.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>Проверка до оплаты</h3>
+            <ul class="checks">
+              <li>Бесплатный разбор: лично у вас в офисе или по видеосвязи — покажу, где теряются заявки и что настроить в первую очередь</li>
+              <li>Первая небольшая задача — бесплатно: проверьте, как я работаю, до оплаты</li>
+              <li>Договор с фиксированной стоимостью и сроком до начала работ</li>
+              <li>Без предоплаты за первый этап: платите за то, что уже видите работающим</li>
+            </ul>
+          </article>
+          <article class="card card-pad">
+            <h3>Работаю официально</h3>
+            <p>Статус самозанятого: договор с фиксированной стоимостью и сроком плюс чеки из «Моего налога» — вашей бухгалтерии хватит документов для учёта.</p>
+          </article>
+          <article class="card card-pad">
+            <h3>Как расстаёмся</h3>
+            <p>Уйти можно в любой момент — и всё продолжит работать: описание настроек остаётся у вас, исходники переданы, при необходимости провожу созвон-передачу дел вашему новому специалисту.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. Инструменты -->
+    <section class="section" id="stack" aria-labelledby="h-stack">
+      <div class="container">
+        <h2 id="h-stack">Инструменты</h2>
+        <p class="section-sub">Инструменты подбираются под задачу, а не наоборот.</p>
+        <ul class="chips chips-lg" aria-label="Инструменты">
+          <li>Битрикс24</li>
+          <li>n8n</li>
+          <li>1С</li>
+          <li>Telegram</li>
+          <li>MAX</li>
+          <li>WhatsApp</li>
+          <li>REST API</li>
+          <li>Webhook</li>
+          <li>LLM</li>
+          <li>Ollama</li>
+          <li>Qdrant</li>
+          <li>Google Таблицы</li>
+          <li>Excel</li>
+          <li>Email</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 11. Стоимость услуг -->
+    <section class="section section-soft" id="prices" aria-labelledby="h-prices">
+      <div class="container">
+        <h2 id="h-prices">Стоимость услуг</h2>
+        <p class="section-sub">Стартовые ориентиры по четырём направлениям.</p>
+        <div class="grid grid-2 grid-4">
+          <article class="card card-pad price">
+            <h3>Битрикс24</h3>
+            <div class="price-row"><strong>от 5 000 ₽</strong></div>
+            <p>Настройка, CRM, роботы, доработки.</p>
+          </article>
+          <article class="card card-pad price">
+            <h3>Автоматизация бизнес-процессов</h3>
+            <div class="price-row"><strong>от 15 000 ₽</strong></div>
+            <p>Заявки, согласования, отчёты, контроль.</p>
+          </article>
+          <article class="card card-pad price">
+            <h3>Интеграции</h3>
+            <div class="price-row"><strong>от 15 000 ₽</strong></div>
+            <p>1С, сайты, мессенджеры, API, таблицы.</p>
+          </article>
+          <article class="card card-pad price">
+            <h3>AI-автоматизация</h3>
+            <div class="price-row"><strong>от 30 000 ₽</strong></div>
+            <p>Боты, помощники, документы, базы знаний.</p>
+          </article>
+        </div>
+        <p class="price-note">Точная стоимость определяется после обсуждения задачи и анализа требований.</p>
+      </div>
+    </section>
+
+    <!-- 12. Частые вопросы -->
+    <section class="section" id="faq" aria-labelledby="h-faq">
+      <div class="container faq">
+        <h2 id="h-faq">Частые вопросы</h2>
+        <p class="section-sub">Отвечаю честно, включая неудобные вопросы.</p>
+        <details>
+          <summary>Вы один — потянете мой проект?</summary>
+          <p>Я беру ограниченное число проектов одновременно, поэтому ваш не стоит в очереди за десятью другими. Если очередь занята, я честно называю дату, с которой смогу взяться.</p>
+        </details>
+        <details>
+          <summary>Что будет, если вы заболеете или уйдёте в отпуск?</summary>
+          <p>О плановом отпуске предупреждаю заранее и сдвигаю плановые задачи. На форс-мажор есть партнёры, которые могут подстраховать. Все настройки задокументированы, поэтому другой специалист при необходимости подхватит их без потерь.</p>
+        </details>
+        <details>
+          <summary>Кому принадлежит код и доступы?</summary>
+          <p>Вам. Исходники, доступы и описание настроек передаю по акту с первого дня. Никаких «наша платформа, вы арендуете» и привязки к подрядчику.</p>
+        </details>
+        <details>
+          <summary>Сколько это стоит без всяких «от»?</summary>
+          <p>После короткого созвона я называю одну сумму и фиксирую её в договоре до начала работ. Дальше она не меняется. Стартовые цены на сайте — ориентиры по направлениям, а не цена любой задачи.</p>
+        </details>
+        <details>
+          <summary>У меня нет технического задания. Это проблема?</summary>
+          <p>Нет, ТЗ пишу я. Вы рассказываете, как процесс устроен сейчас и что в нём мешает, я приношу документ на понятном языке, вы его правите. Работа идёт по подписанному ТЗ.</p>
+        </details>
+        <details>
+          <summary>Вы работаете официально?</summary>
+          <p>Да, статус самозанятого: договор с фиксированной стоимостью и сроком плюс чеки из «Моего налога» — для бухгалтерии достаточно документов для учёта.</p>
+        </details>
+        <details>
+          <summary>Где вы работаете?</summary>
+          <p>Миасс, Златоуст, Чебаркуль, Кыштым, Карабаш, Верхний Уфалей, Сатка, Трёхгорный и другие города Челябинской области в радиусе ~100 км от Миасса. Выезжаю к вам в офис или работаю удалённо.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- 13. Обо мне -->
+    <section class="section section-soft" id="about" aria-labelledby="h-about">
+      <div class="container about-in">
+        <img class="photo" src="images/photo.webp" width="800" height="1000" loading="lazy" alt="Фото специалиста по автоматизации бизнеса">
+        <div>
+          <h2 id="h-about">Обо мне</h2>
+          <p>Я специалист по Битрикс24: работаю с облачной и коробочной версией, автоматизирую бизнес-процессы и интеграции. Помогаю компаниям убрать ручную работу, связать используемые сервисы и внедрить AI там, где он действительно приносит пользу.</p>
+          <p>Выезжаю в офис или работаю удалённо: Миасс, Златоуст, Чебаркуль, Кыштым, Карабаш, Верхний Уфалей, Сатка, Трёхгорный и другие города Челябинской области в радиусе ~100 км от Миасса.</p>
+          <ul class="checks">
+            <li>Опыт в автоматизации и интеграциях</li>
+            <li>Битрикс24, n8n, 1С, AI-инструменты</li>
+            <li>Работа напрямую, без посредников</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Отзывы: включить секцию, когда появятся реальные отзывы
+  <section class="section" id="reviews" aria-labelledby="h-reviews">
+    <div class="container">
+      <h2 id="h-reviews">Отзывы</h2>
+      <div class="grid grid-2">
+        <article class="card card-pad"><p>«Текст реального отзыва.»</p><cite>— Имя Фамилия, компания</cite></article>
+      </div>
+    </div>
+  </section>
+  -->
+
+    <!-- 14. Контакты -->
+    <section class="section" id="contacts" aria-labelledby="h-contacts">
+      <div class="container">
+        <h2 id="h-contacts">Контакты</h2>
+        <p class="section-sub">Без форм и заявок: пишите или звоните напрямую в удобный канал. Выезжаю в офис или работаю удалённо: Миасс, Златоуст, Чебаркуль, Кыштым, Карабаш, Верхний Уфалей, Сатка, Трёхгорный и другие города в радиусе ~100 км от Миасса.</p>
+        <div class="grid grid-2 contacts">
+          <a class="card card-pad contact" href="https://t.me/takeshikovach">
+            <h3>Telegram</h3>
+            <p>@takeshikovach · отвечаю быстрее всего</p>
+          </a>
+          <a class="card card-pad contact" href="https://wa.me/79507255980">
+            <h3>WhatsApp</h3>
+            <p>+7 950 725-59-80</p>
+          </a>
+          <a class="card card-pad contact" href="mailto:grevtsov85@mail.ru">
+            <h3>Email</h3>
+            <p>grevtsov85@mail.ru</p>
+          </a>
+          <a class="card card-pad contact" href="tel:+79507255980">
+            <h3>Телефон</h3>
+            <p>+7 950 725-59-80 · будни 9:00–20:00</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15. Финальный призыв -->
+    <section class="cta-band" aria-labelledby="h-cta">
+      <div class="container cta-band-in">
+        <div>
+          <h2 id="h-cta">Есть задача, которую хочется автоматизировать?</h2>
+          <p>Расскажите, как сейчас работает процесс. Разберёмся, что можно упростить и автоматизировать.</p>
+        </div>
+        <a class="btn btn-inverse" href="https://t.me/takeshikovach">Обсудить задачу</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Sticky-CTA на мобильных -->
+  <div class="mobile-cta" id="mobile-cta">
+    <a class="btn btn-primary" href="https://t.me/takeshikovach">Обсудить задачу</a>
+    <a class="btn btn-ghost" href="#prices">Цены</a>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-in">
+      <p>© <span id="year">2026</span> · Евгений Гревцов · Битрикс24 и автоматизация · Миасс и Челябинская область</p>
+      <nav aria-label="Навигация в подвале">
+        <a href="#services">Услуги</a><a href="#cases">Кейсы</a><a href="#prices">Цены</a><a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

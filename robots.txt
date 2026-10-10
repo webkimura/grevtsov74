@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://grevtsov74.ru/sitemap.xml
